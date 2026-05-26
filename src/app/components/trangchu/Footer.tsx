@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
-import { FaFacebookF, FaTiktok, FaYoutube } from "react-icons/fa";
 
 export default function Footer() {
   const t = useTranslations("footer");
@@ -76,15 +75,33 @@ export default function Footer() {
 
               <div className="mt-4 flex items-center gap-[16px] text-[#062854]">
                 <Link href="#" aria-label="Facebook">
-                  <FaFacebookF className="h-[20px] w-[20px]" />
+                  <Image
+                    src="/trang-chu/facebook.svg"
+                    alt=""
+                    width={20}
+                    height={20}
+                    className="h-[20px] w-[20px] object-contain"
+                  />
                 </Link>
 
                 <Link href="#" aria-label="YouTube">
-                  <FaYoutube className="h-[20px] w-[20px]" />
+                  <Image
+                    src="/trang-chu/youtube.png"
+                    alt=""
+                    width={20}
+                    height={20}
+                    className="h-[20px] w-[20px] object-contain"
+                  />
                 </Link>
 
                 <Link href="#" aria-label="TikTok">
-                  <FaTiktok className="h-[20px] w-[20px]" />
+                  <Image
+                    src="/trang-chu/tiktok.svg"
+                    alt=""
+                    width={20}
+                    height={20}
+                    className="h-[20px] w-[20px] object-contain"
+                  />
                 </Link>
               </div>
             </div>
