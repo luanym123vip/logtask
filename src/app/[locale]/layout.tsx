@@ -1,19 +1,17 @@
-import type { Metadata } from "next";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import "../globals.css";
+import Header from "../components/trangchu/Header";
+import Footer from "../components/trangchu/Footer";
 
-export const metadata: Metadata = {
-  title: "The 56 Cellar",
-  description: "Multilingual wine cellar website",
-};
-type Props = {
+export default async function LocaleLayout({
+  children,
+  params,
+}: {
   children: React.ReactNode;
   params: Promise<{ locale: string }>;
-};
-
-export default async function LocaleLayout({ children, params }: Props) {
+}) {
   const { locale } = await params;
 
   if (!hasLocale(routing.locales, locale)) {
@@ -23,7 +21,11 @@ export default async function LocaleLayout({ children, params }: Props) {
   return (
     <html lang={locale}>
       <body>
-        <NextIntlClientProvider>{children}</NextIntlClientProvider>
+        <NextIntlClientProvider>
+          <Header />
+          {children}
+          <Footer />
+        </NextIntlClientProvider>
       </body>
     </html>
   );

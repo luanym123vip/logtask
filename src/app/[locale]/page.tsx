@@ -1,22 +1,25 @@
-import { useTranslations } from "next-intl";
-import { Link } from "@/i18n/navigation";
-import LocaleSwitcher from "../components/LocaleSwitcher";
+import { Contact } from "lucide-react";
+import Benefits from "../components/trangchu/Benefits";
+import Customers from "../components/trangchu/Customers";
+import FeatureStrip from "../components/trangchu/FeatureStrip";
+import Hero from "../components/trangchu/Hero";
+import PosSlider from "../components/trangchu/PosSlider";
+import Solutions from "../components/trangchu/Solutions";
+import Support from "../components/trangchu/Support";
+import WebsiteDesign from "../components/trangchu/WebsiteDesign";
 
 export default function HomePage() {
-  const t = useTranslations("HomePage");
-
   return (
-    <main className="min-h-screen p-10">
-      <nav className="mb-8 flex items-center gap-4">
-        <Link href="/about">{t("about")}</Link>
-        <Link href="/shop">{t("shop")}</Link>
-        <Link href="/contact">{t("contact")}</Link>
-
-        <LocaleSwitcher />
-      </nav>
-
-      <h1 className="text-4xl font-bold">{t("title")}</h1>
-      <p className="mt-4 text-lg">{t("description")}</p>
+    <main className="overflow-hidden bg-white">
+      <Hero />
+      <FeatureStrip />
+      <PosSlider />
+      <Solutions />
+      <Benefits />
+      <WebsiteDesign />
+      <Customers />
+      <Support />
+      <Contact />
     </main>
   );
 }

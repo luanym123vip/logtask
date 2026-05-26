@@ -1,10 +1,146 @@
 {
-  "HomePage": {
-    "title": "The 56 Cellar",
-    "description": "Premium wine cellar experience",
-    "about": "About",
-    "shop": "Shop",
-    "contact": "Contact",
-    "changeLanguage": "Change language"
+  "nav": {
+    "home": "Home",
+    "solution": "Management software",
+    "service": "Services",
+    "price": "Pricing",
+    "about": "About us",
+    "cta": "Get consultation"
+  },
+  "hero": {
+    "title": "Everything shop owners need to start and grow their business",
+    "titleLine1": "Everything shop owners",
+    "titleLine2Lead": "need to",
+    "titleHighlight": "start a business",
+    "desc1": "Multi-currency – Multilingual – Multi-industry",
+    "desc2": "Cost-efficient tools built for Vietnamese owners abroad",
+    "consult": "Contact us",
+    "video": "Watch video",
+    "stats": [
+      {
+        "top": "Supporting",
+        "number": "5,000+",
+        "bottom": "Stores"
+      },
+      {
+        "top": "Over",
+        "number": "2348",
+        "bottom": "Completed projects"
+      },
+      {
+        "top": "Over",
+        "number": "450",
+        "bottom": "Experienced\nexperts"
+      },
+      {
+        "top": "Over",
+        "number": "1200",
+        "bottom": "Media articles"
+      }
+    ]
+  },
+  "stats": {
+    "customers": "Trusted shop owners",
+    "transactions": "Transactions / month",
+    "partners": "Business partners",
+    "support": "Monthly support cases"
+  },
+  "featureStrip": {
+    "title": "Avos for Vietnamese shop owners",
+    "items": [
+      "Easy-to-use software",
+      "Effective sales management",
+      "Marketing optimization",
+      "Fast website design",
+      "24/7 operation support"
+    ]
+  },
+  "pos": {
+    "title": "Integrated POS system",
+    "subtitle": "Smart POS",
+    "tag": "All-in-one"
+  },
+  "solutions": {
+    "title": "We deliver creative, optimized and effective marketing solutions",
+    "desc": "From websites and POS to design and marketing, Avos helps businesses operate professionally, attract customers and grow faster.",
+    "items": [
+      {
+        "title": "Merchant Service",
+        "desc": "Support payment devices, transaction management and convenient store operations."
+      },
+      {
+        "title": "Brand Design",
+        "desc": "Build a consistent, modern and memorable brand identity."
+      },
+      {
+        "title": "Digital Marketing",
+        "desc": "Run advertising, content and growth campaigns for businesses."
+      },
+      {
+        "title": "Website Design",
+        "desc": "Design beautiful websites with clear information and strong user experience."
+      },
+      {
+        "title": "NFC Card",
+        "desc": "Smart business cards for fast and professional information sharing."
+      },
+      {
+        "title": "POS and Software Service",
+        "desc": "POS and software solutions that make store management easier."
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Why medium, large and F&B chain businesses choose AVOS",
+    "items": [
+      {
+        "title": "Smart payment",
+        "desc": "Optimize payment workflows, reduce manual tasks and improve customer experience."
+      },
+      {
+        "title": "Easy operation management",
+        "desc": "Track business activities, orders and customer data in one platform."
+      }
+    ]
+  },
+  "website": {
+    "title": "Website design service",
+    "desc": "From restaurants, cafes and nail salons to service businesses, Avos designs professional websites that build trust and bring in more customers.",
+    "button": "Contact design team"
+  },
+  "customers": {
+    "title": "My customers"
+  },
+  "support": {
+    "title": "24/7 customer care",
+    "items": [
+      "Fast technical support",
+      "Professional operation consulting",
+      "Support throughout your journey"
+    ]
+  },
+  "contact": {
+    "label": "24/7 connection",
+    "title": "Contact for consultation",
+    "desc": "The AVOS team is always ready to support and grow with shop owners.",
+    "infoTitle": "Contact information",
+    "formTitle": "Send consultation request",
+    "name": "Full name",
+    "phone": "Phone number",
+    "email": "Email",
+    "message": "Your message",
+    "submit": "Submit",
+    "hotline": "24/7 Hotline"
+  },
+  "footer": {
+    "companyLine1": "AVOS Company",
+    "companyLine2": "Marketing-Merchant Services",
+    "headOffice": "Head office",
+    "vietnamOffice": "Vietnam office",
+    "overseasSupport": "Overseas customer support hotline",
+    "usa": "USA",
+    "followUs": "Follow us on",
+    "mapAlt": "Map of regions supported by AVOS",
+    "copyright": "© 2024 Avos Marketing-Merchant Services"
   }
 }

@@ -1,10 +1,146 @@
 {
-  "HomePage": {
-    "title": "Hầm rượu 56 Cellar",
-    "description": "Không gian rượu vang cao cấp",
-    "about": "Giới thiệu",
-    "shop": "Cửa hàng",
-    "contact": "Liên hệ",
-    "changeLanguage": "Đổi ngôn ngữ"
+  "nav": {
+    "home": "Trang chủ",
+    "solution": "Phần mềm quản lý",
+    "service": "Dịch vụ",
+    "price": "Bảng giá",
+    "about": "Về chúng tôi",
+    "cta": "Đăng ký tư vấn"
+  },
+  "hero": {
+    "title": "Tất cả những gì chủ tiệm cần để bắt đầu kinh doanh",
+    "titleLine1": "Tất cả những gì chủ tiệm",
+    "titleLine2Lead": "cần để",
+    "titleHighlight": "bắt đầu kinh doanh",
+    "desc1": "Đa tiền tệ – Đa ngôn ngữ – Đa ngành hàng",
+    "desc2": "Chi phí tiết kiệm dành riêng cho Kiều bào Việt",
+    "consult": "Liên hệ tư vấn",
+    "video": "Video giới thiệu",
+    "stats": [
+      {
+        "top": "Đồng hành cùng",
+        "number": "5.000+",
+        "bottom": "Cửa hàng"
+      },
+      {
+        "top": "Hơn",
+        "number": "2348",
+        "bottom": "Dự án hoàn thành"
+      },
+      {
+        "top": "Hơn",
+        "number": "450",
+        "bottom": "Chuyên gia giàu\nkinh nghiệm"
+      },
+      {
+        "top": "Hơn",
+        "number": "1200",
+        "bottom": "Bài viết truyền thông"
+      }
+    ]
+  },
+  "stats": {
+    "customers": "Chủ tiệm tin dùng",
+    "transactions": "Giao dịch / tháng",
+    "partners": "Đối tác đồng hành",
+    "support": "Hỗ trợ mỗi tháng"
+  },
+  "featureStrip": {
+    "title": "Avos dành cho chủ tiệm người Việt Nam",
+    "items": [
+      "Phần mềm dễ sử dụng",
+      "Quản lý bán hàng hiệu quả",
+      "Tối ưu marketing",
+      "Thiết kế website nhanh",
+      "Hỗ trợ vận hành 24/7"
+    ]
+  },
+  "pos": {
+    "title": "Hệ thống POS tích hợp",
+    "subtitle": "Smart POS",
+    "tag": "All-in-one"
+  },
+  "solutions": {
+    "title": "Chúng tôi mang đến giải pháp Marketing, sáng tạo, tối ưu và hiệu quả",
+    "desc": "Từ website, POS, thiết kế đến marketing, Avos giúp doanh nghiệp vận hành chuyên nghiệp, thu hút khách hàng và tăng trưởng nhanh hơn.",
+    "items": [
+      {
+        "title": "Merchant Service",
+        "desc": "Hỗ trợ thiết bị thanh toán, quản lý giao dịch và vận hành bán hàng thuận tiện."
+      },
+      {
+        "title": "Brand Design",
+        "desc": "Xây dựng hình ảnh thương hiệu đồng bộ, hiện đại và dễ ghi nhớ."
+      },
+      {
+        "title": "Digital Marketing",
+        "desc": "Triển khai quảng cáo, nội dung và chiến dịch tăng trưởng cho doanh nghiệp."
+      },
+      {
+        "title": "Website Design",
+        "desc": "Thiết kế website đẹp, rõ thông tin, chuẩn trải nghiệm người dùng."
+      },
+      {
+        "title": "NFC Card",
+        "desc": "Danh thiếp thông minh, chia sẻ thông tin nhanh và chuyên nghiệp."
+      },
+      {
+        "title": "POS and Software Service",
+        "desc": "Giải pháp POS và phần mềm giúp quản lý cửa hàng dễ dàng hơn."
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Tại sao các mô hình vừa, lớn, chuỗi F&B Việt kiều bảo Mỹ chọn AVOS",
+    "items": [
+      {
+        "title": "Thanh toán thông minh",
+        "desc": "Tối ưu quy trình nhận thanh toán, hạn chế thao tác thủ công và nâng cao trải nghiệm khách hàng."
+      },
+      {
+        "title": "Quản lý vận hành dễ dàng",
+        "desc": "Theo dõi hoạt động kinh doanh, đơn hàng và dữ liệu khách hàng ngay trên một nền tảng."
+      }
+    ]
+  },
+  "website": {
+    "title": "Nhận thiết kế website",
+    "desc": "Từ nhà hàng, cafe, nail salon đến các mô hình dịch vụ, Avos thiết kế website chuyên nghiệp giúp chủ tiệm thể hiện thương hiệu, tăng độ tin cậy và nhận khách hàng hiệu quả hơn.",
+    "button": "Liên hệ thiết kế"
+  },
+  "customers": {
+    "title": "Khách hàng của tôi"
+  },
+  "support": {
+    "title": "Chăm sóc khách hàng 24/7",
+    "items": [
+      "Hỗ trợ kỹ thuật nhanh chóng",
+      "Tư vấn vận hành chuyên nghiệp",
+      "Đồng hành trong quá trình sử dụng"
+    ]
+  },
+  "contact": {
+    "label": "Kết nối 24/7",
+    "title": "Liên hệ tư vấn",
+    "desc": "Đội ngũ AVOS luôn sẵn sàng hỗ trợ và đồng hành cùng chủ tiệm.",
+    "infoTitle": "Thông tin liên hệ",
+    "formTitle": "Gửi yêu cầu tư vấn",
+    "name": "Họ và tên",
+    "phone": "Số điện thoại",
+    "email": "Email",
+    "message": "Nội dung cần tư vấn",
+    "submit": "Submit",
+    "hotline": "Hotline 24/7"
+  },
+  "footer": {
+    "companyLine1": "Công Ty AVOS",
+    "companyLine2": "Marketing-Merchant Services",
+    "headOffice": "Trụ sở chính",
+    "vietnamOffice": "Trụ sở Việt Nam",
+    "overseasSupport": "Tổng đài hỗ trợ khách hàng ở nước ngoài",
+    "usa": "Mỹ",
+    "followUs": "Theo dõi chúng tôi qua",
+    "mapAlt": "Bản đồ các khu vực AVOS hỗ trợ",
+    "copyright": "© 2024 Avos Marketing-Merchant Services"
   }
 }
